@@ -1,0 +1,239 @@
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #333; /* Updated background color */
+    color: #eee;
+    line-height: 1.6;
+}
+/* Header Styles */
+header {
+    background:url('peakpx.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 2em 0;
+    position: relative;
+}
+
+nav {
+    font-family:cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+    margin:20px;
+}
+
+nav a:hover {
+    color: #61dafb;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.hero h2 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+    color:whitesmoke;
+}
+
+.hero p {
+    color:#6CABDD;
+    font-family:cursive;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.btn {
+    font-family:cursive;
+    background:#6CABDD;
+    color: white;
+    padding: 0.75em 2em;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #555;
+}
+section {
+    padding: 40px;
+}
+.news h1{
+    color
+}
+.news h2 {
+    margin-bottom: 20px;
+    color: #6dd5ed
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-item {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.news-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.squad-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center; /* Center the grid items */
+}
+
+
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px var(--shadow-color);
+    background: var(--light-background);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 100%; /* Ensure projects don't exceed container width */
+    }
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.project-info {
+    color:white;
+    padding: 1em 0;
+}
+
+.project-link {
+    color: #61dafb;
+    text-decoration:none;
+    font-weight: 700;
+}
+
+.project-link:hover {
+    text-decoration: ;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color: #333;
+}
+
+footer {
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Content Section Styling */
+.content {
+    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text {
+  flex: 1;
+  max-width: 50%;
+}
+
+ 
+h2 {
+  font-size: 30px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color:grey;
+}
+
+p {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  background-color:green;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.content img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
